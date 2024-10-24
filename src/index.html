@@ -1,17 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
+
+    <main>
+        <!-- Summary section -->
+        <section class="summary-section">
+            <div class="container">
+                <h1 class="summary-title">Hola, soy Villegas Amador</h1>
+                <p class="summary-subtitle">Psicólogo, Desarrollador de Software y Creador de Contenido</p>
+                <a href="https://wa.me/5215577301753" target="_blank" class="btn btn-primary btn-lg">Contáctame</a>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Áreas de Experiencia</h2>
+                <div class="row">
+                    <!-- Card project 1 -->
+                    <div class="col-md-12 col-lg-4">
+                        <div class="card project-card">
+                            <div class="ratio ratio-1x1">
+                                <img src="/images/brain.jpg" class="card-img-top img-fluid object-fit"
+                                    alt="Ilustración de un cerebro humano iluminado con conexiones neuronales, simbolizando la psicología y el funcionamiento mental">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Servicios de Psicología</h3>
+                                <p class="card-text">Servicios de terapia psicológica, talleres y divulgación de
+                                    estrategias enfocadas en el bienestar emocional y el manejo de situaciones
+                                    desafiantes.</p>
+                                <a href="/pages/psychological-services.html" class="btn btn-primary btn-lg">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card project 2 -->
+                    <div class="col-md-12 col-lg-4">
+                        <div class="card project-card">
+                            <div class="ratio ratio-1x1">
+                                <img src="/images/software-emblem.jpg" class="card-img-top img-fluid object-fit"
+                                    alt="Ilustración de un chip electrónico con alas y circuitos, representando el desarrollo de software y la innovación tecnológica">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Desarrollo de Software</h3>
+                                <p class="card-text">Desarrollo de proyectos, scripts y soluciones tecnológicas en
+                                    múltiples lenguajes y frameworks.</p>
+                                <a href="/pages/software-development.html" class="btn btn-primary btn-lg">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card project 3 -->
+                    <div class="col-md-12 col-lg-4">
+                        <div class="card project-card">
+                            <div class="ratio ratio-1x1">
+                                <img src="images/communication.jpg" class="card-img-top img-fluid object-fit"
+                                    alt="Escena con micrófono, smartphone, cámara y símbolos de comunicación, representando los canales de difusión de información en plataformas de internet">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Creación de Contenido</h3>
+                                <p class="card-text">Canales, podcasts y material digital para compartir y difundir
+                                    conocimientos en diversas áreas de interés.</p>
+                                <a href="/pages/content-creation.html" class="btn btn-primary btn-lg">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/shareds/layout.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
